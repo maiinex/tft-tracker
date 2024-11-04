@@ -1,0 +1,115 @@
+.tftDetailsWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  cursor: default;
+  width: 100%;
+  max-width: 600px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tftGameMode {
+  display: flex;
+  margin-top: 1%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 600px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tftDetails {
+  padding-top: 5%;
+}
+
+/* .tftDetailsButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+.tftDetailsInfo {
+  flex: 1;
+  max-width: 200px;
+  gap: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tftDetailsInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.tftDetailsInfoContainer p {
+  margin: 0;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+}
+.tftDetailsInfoPlacement {
+  background-color: darkgray;
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.tftDetailsRank {
+  display: flex;
+  justify-content: flex-start;
+}
+.rankEmblem {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  object-fit: cover;
+  /* max-width: 130px; */
+}
+.tftDetailsRankTier {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.tftDetailsRankTier p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.tftDetailsRankTier p:nth-child(1) {
+  font-weight: bold;
+}
+
+.place-item--type-1 {
+  background-color: #c9b037;
+}
+
+.place-item--type-2 {
+  background-color: #b4b4b4;
+}
+
+.place-item--type-3 {
+  background-color: #6a3805;
+}
+
+.place-item--type-4 {
+  background-color: #636363;
+}
+
+.place-item--type-5,
+.place-item--type-6,
+.place-item--type-7,
+.place-item--type-8 {
+  background-color: rgb(65, 65, 65);
+}

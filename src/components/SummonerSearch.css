@@ -1,0 +1,32 @@
+.summonerSearchBar {
+  display: flex;
+  justify-items: auto;
+  transition: background-color 0.5s ease-in;
+}
+.summonerSearchBar:hover {
+  background-color: rgb(212, 65, 65);
+}
+
+.summonerSearchBar input {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0px;
+  text-align: center;
+}
+.summonerSearchBar input:selection {
+  outline: none;
+}
+
+.name input {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tag input {
+  justify-content: flex-start;
+  width: 50%;
+}
+.button {
+}

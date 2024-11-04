@@ -1,0 +1,16 @@
+.summonerInfo {
+  display: flex;
+  margin-top: 3%;
+  background-color: #1d1619;
+  border-radius: 30px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summonerIcon {
+  border-radius: 15px;
+}

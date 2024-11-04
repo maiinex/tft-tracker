@@ -1,0 +1,10 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.summoner {
+  display: flex;
+  justify-content: center;
+}
+
+/* box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%); */
